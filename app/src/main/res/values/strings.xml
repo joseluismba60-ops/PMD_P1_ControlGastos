@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ExpenseControl</string>
+    <string name="titulo_pantalla">Daily Expense Tracker</string>
+    <string name="hint_concepto">Enter expense description</string>
+    <string name="hint_cantidad">Amount in euros (€)</string>
+    <string name="boton_guardar">Save Expense</string>
+    <string name="boton_limpiar">Clear Fields</string>
+    <string name="etiqueta_total">Total Amount:</string>
+    <string name="mensaje_exito">Expense successfully saved: %1$s</string>
+
+    <string-array name="categorias_gastos">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Leisure</item>
+        <item>Others</item>
+    </string-array>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/fondo_pantalla">
+
+    <!-- Título de la pantalla usando nuestro estilo propio -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_pantalla"
+        style="@style/EstiloTituloPantalla" />
+
+    <!-- Campo de texto para el concepto del gasto -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_concepto"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Campo numérico para la cantidad -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_cantidad"
+        android:inputType="numberDecimal"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Botón de guardar usando nuestro estilo de botón -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_guardar"
+        style="@style/EstiloBotonAccion"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Botón de limpiar -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_limpiar"
+        style="@style/EstiloBotonAccion"
+        android:backgroundTint="@color/color_acento"/>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo para títulos -->
+    <style name="EstiloTituloPantalla">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_primario</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <!-- Estilo para botones de acción -->
+    <style name="EstiloBotonAccion">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:backgroundTint">@color/color_primario</item>
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>
